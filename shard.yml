@@ -1,0 +1,18 @@
+name: cron-resource
+version: 0.1.0
+crystal: 0.22.0
+license: MIT
+
+authors:
+  - Dave Goddard <dave@goddard.id.au>
+
+targets:
+  check:
+    main: src/check.cr
+  in:
+    main: src/in.cr
+
+dependencies:
+  cron_parser:
+    github: kostya/cron_parser
+

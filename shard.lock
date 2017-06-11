@@ -1,0 +1,6 @@
+version: 1.0
+shards:
+  cron_parser:
+    github: kostya/cron_parser
+    commit: 44f62d7b917fa9922cb060f327f8373b662ff892
+
